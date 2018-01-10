@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trip Sorter</title>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/custom.js"></script>
+<link href="css/custom.css" media="screen" rel="stylesheet">
+</head>
+	<body>
+		<div class="wrapper">
+			<select id="fromData">
+				<option value='from'>From</option>
+			</select>
+			<select id="fromTo">
+				<option value='to'>To</option>
+			</select>
+			<div class="tripBtn">
+				<label><input type="checkbox" id="cheapest" class="checkOne" value="Cheapest" checked > Cheapest</label>
+				<label><input type="checkbox" id="fastest" class="checkOne" value="Fastest"> Fastest </label>
+			</div>
+			<div class="tripBtnSearch">
+				<input type="button" onClick="searchTravelPlan();" id="searchTrip" value="Search">
+			</div>
+			<div id="resultData"></div>
+		</div>
+	</body>
+</html>
