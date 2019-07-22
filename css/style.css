@@ -1,0 +1,51 @@
+.wrapper{
+		width:20%;
+		margin:0 auto;
+		top:50px;
+		border:#ccc solid 1px; 
+	}
+	.wrapper select{
+		width:95%;
+		padding:5px;
+		margin:10px 10px 10px 10px;
+	}
+	.wrapper input[type="button"]{
+		width:40%;
+		margin:4% 4% 4% 5%;
+		padding:5px; 
+	}
+	.wrapper input[type="button"]{
+		width:40%;
+		margin:4% 4% 4% 5%;
+		padding:5px; 
+	}
+	.wrapper #searchTrip{
+		width:90%;
+		margin:4% 4% 4% 5%;
+		padding:5px; 
+	}
+	.dataRows {
+		display: inline-block;
+		font-size: 13px;
+		background-color: #eee;
+		margin: 1px 2px 4px 12px;
+		width: 93%;
+		font-family: monospace;
+		font-weight: 700;
+	}
+	span.dataPrice {
+		float: right;
+		display: inline-block;
+	}
+	span.dataTrans {
+		font-style: italic;
+		font-size: 11px;
+	}
+	.tripBtn {
+		margin: 5%;
+	}
+	.tripBtn label {
+		display: inline-block;
+		width: 48%;
+		text-align: center;
+	}
